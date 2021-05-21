@@ -1,0 +1,6 @@
+<h1 style="margin-top: 20px;">Crear Factura</h1>
+
+<mat-form-field class="example-full-width" style="width: 100%;">
+    <mat-label>Codigo de Producto</mat-label>
+    <input matInput placeholder="P00X" style="font-size: 30px;" [(ngModel)]="value" (change)="openSnackBar()" #txtCodigo autofocus>
+</mat-form-field>

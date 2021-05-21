@@ -1,0 +1,19 @@
+<mat-list>
+    <div mat-subheader>Productos</div>
+    <div *ngFor="let producto of productos">
+        <mat-list-item>
+            <mat-icon mat-list-icon>tv</mat-icon>
+            <div mat-line>{{producto.id}}</div>
+            <div mat-line> {{producto.descripcion}} </div>
+        </mat-list-item>
+        <div style="display: flex; justify-content: center;">
+            <ngx-qrcode 
+                [elementType]="elementType" 
+                value="{{producto.id}}"
+                cssClass="aclass"
+                [errorCorrectionLevel]="correctionLevel">
+            </ngx-qrcode>
+        </div>
+        <mat-divider></mat-divider>
+    </div>
+</mat-list>

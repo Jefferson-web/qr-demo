@@ -1,0 +1,34 @@
+{
+  "productos": [
+      {
+          "id": "P001",
+          "descripcion": "TV LG LED 4K UHD Smart 49\" 49UN7100PSA (2020)",
+          "stock": 5,
+          "precio": 1799
+      },
+      {
+          "id": "P002",
+          "descripcion": "TV Miray LED 4K UHD Smart 50\" MK50-E201",
+          "stock": 10,
+          "precio": 1099.00
+      },
+      {
+          "id": "P003",
+          "descripcion": "TV Miray LED 4K UHD Smart 43\" MK43-E201",
+          "stock": 5,
+          "precio": 1099.00
+      },
+      {
+          "id": "P004",
+          "descripcion": "TV Miray LED 4K UHD Smart 55\" MK55-M400",
+          "stock": 12,
+          "precio": 1299.00
+      },
+      {
+          "id": "P005",
+          "descripcion": "TV Miray LED Smart FHD 42\" MS42-T100",
+          "stock": 6,
+          "precio": 999.00
+      }
+  ]
+}
